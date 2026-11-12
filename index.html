@@ -14,7 +14,7 @@
   ■ 地域講座講師コース2期 LP（12月試験の合格者・過去のOS認定者向け）  作成: 2026-11-10
   ■ 本文の正本＝Doc「地域講座講師2期LP｜本文 決定版v1（横山版ベース）」1nZBWWAqCXZ4Z8vu3KIOP_RQhr14Uugg9-oGMxVcffEc
   ■ デザインはドリル申込ページ（school-portal/drill-apply）を流用（本人「今までで一番よくできたLP」）
-  ■ 置き場所：{{GAS_URL_CK2}} … 説明会申込の受付GAS（未作成）。未設定のあいだは送信せず、メールの案内を出す
+  ■ 置き場所：https://script.google.com/macros/s/AKfycbz-apxRS__lQZvrlGHYXSLHQDfjzt8gFufH1IodGcBXR0lgXlR_rc1PINsYYDuJFHlu-g/exec … 説明会申込の受付GAS（未作成）。未設定のあいだは送信せず、メールの案内を出す
   ■ 計測（常時インサイト）: view / cta(ボタン別) / form_start / scroll25・50・75・90 / 申込（entry＝押した申込ボタン）。?src=○○で流入元。自分の確認は ?src=me
   ■ 写真：img/ck/＝1期講師の写真（Drive 1. IOB/4. CK/マーケティング/客声/写真）※公開前に本人の了承を確認。img/stock/＝Unsplash（ドリルと同じ）
 -->
@@ -803,7 +803,7 @@
 (function(){
   /* 受付GAS（説明会申込の記録・hi@iob.bioへの通知・school@からの自動返信）。未設定のあいだは送信せず、案内を出す */
 
-  var GAS_URL = "{{GAS_URL_CK2}}";
+  var GAS_URL = "https://script.google.com/macros/s/AKfycbz-apxRS__lQZvrlGHYXSLHQDfjzt8gFufH1IodGcBXR0lgXlR_rc1PINsYYDuJFHlu-g/exec";
   function isReal(u){ return typeof u === "string" && u.indexOf("http") === 0; }
   /* 流入元（?src=）。自分の確認は ?src=me（集計から外す） */
   var q = new URLSearchParams(location.search);
